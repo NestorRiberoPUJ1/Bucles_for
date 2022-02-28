@@ -28,3 +28,7 @@ mult=3
 for x in range(lowNum,highNum):
     if(x%mult==0):
         print(x)
+
+x=[1,2,3]
+x+=[4]
+print(x)
